@@ -1,0 +1,40 @@
+{
+  "Projects": [
+    {
+      "name": "Digital Twin - Smart City",
+      "role": "Frontend Developer",
+      "viaCompany": "Kafein Technology Solutions",
+      "imagePath": "DigitalTwin.jpg"
+    },
+    {
+      "name": "Muud",
+      "role": "Frontend Developer",
+      "viaCompany": "Kafein Technology Solutions",
+      "imagePath": "Muud.jpg"
+    },
+    {
+      "name": "Yaay",
+      "role": "Full Stack Developer",
+      "viaCompany": "Kafein Technology Solutions",
+      "imagePath": "Yaay.svg"
+    },
+    {
+      "name": "Intraprise",
+      "role": "Full Stack Developer",
+      "viaCompany": null,
+      "imagePath": "Intraprise.png"
+    },
+    {
+      "name": "HR Metrik - 360 Degree Evaluation",
+      "role": "Full Stack Developer",
+      "viaCompany": null,
+      "imagePath": "360DegreeEvaluation.jpg"
+    },
+    {
+      "name": "Call Center App",
+      "role": "Full Stack Developer",
+      "viaCompany": null,
+      "imagePath": "CallCenter.png"
+    }
+  ]
+}
