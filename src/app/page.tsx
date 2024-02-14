@@ -1,17 +1,6 @@
-"use client"
-import MyButton from "@/components/Button";
-import { animated, useResize, useScroll, useSpring } from '@react-spring/web'
-import MyImage from "../assets/image/BERKCOLAK.jpg";
-import Image from "next/image";
 import { Code } from "@nextui-org/react";
 import CardWithImage from "@/components/CardWithImage";
 import BreathingAppIcon from "../assets/image/breathing-app-icon.jpeg";
-import Yaay from "../assets/image/Yaay.svg";
-import Muud from "../assets/image/Muud.jpg";
-import Intraprise from "../assets/image/Intraprise.png";
-import CallCenter from "../assets/image/CallCenter.png";
-import Feedback from "../assets/image/360Feedback.jpg";
-import DigitalTwin from "../assets/image/DigitalTwin.jpg";
 import CVData from "../data/CV.json";
 
 export default function Home() {
