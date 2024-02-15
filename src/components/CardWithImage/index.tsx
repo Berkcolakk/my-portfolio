@@ -1,23 +1,30 @@
+"use client"
 import { Card, CardFooter, CardHeader } from "@nextui-org/react"
 import Image, { StaticImageData } from "next/image"
-import MyButton from "../Button"
+import MyButton from "@/components/Button"
 import React from "react";
+import Link from "next/link";
+
 
 interface IProps {
     image: StaticImageData;
     clickedIcon: StaticImageData;
+    description: string;
+    title: string;
+    footerDescription: string;
+    link?: string | null;
+
 }
-const CardWithImage: React.FC<IProps> = ({ clickedIcon, image }) => {
+const CardWithImage: React.FC<IProps> = ({ clickedIcon, image, description, footerDescription, title, link }) => {
     return (
         <Card isFooterBlurred className=" h-52 col-span-12 sm:col-span-7 w-52">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">
-                <p className="text-tiny text-white/60 uppercase font-bold">Your day your way</p>
-                <h4 className="text-white/90 font-medium text-xl">Your checklist for better sleep</h4>
+                <p className="text-tiny text-white/60 uppercase font-bold">{description}</p>
+                <h4 className="text-white/90 font-medium text-xl">{title}</h4>
             </CardHeader>
             <Image
                 width={100}
                 height={100}
-                removeWrapper
                 alt="Relaxing app background"
                 className="z-0 w-full h-full object-fill"
                 src={image}
@@ -32,11 +39,18 @@ const CardWithImage: React.FC<IProps> = ({ clickedIcon, image }) => {
                         src={clickedIcon}
                     />
                     <div className="flex flex-col">
-                        <p className="text-tiny text-white/60">Breathing App</p>
-                        <p className="text-tiny text-white/60">Get a good nights sleep.</p>
+                        <p className="text-tiny text-white/60">{footerDescription}</p>
                     </div>
                 </div>
-                <MyButton text="Git" />
+                {link ?
+                    <Link href={link} target="_blank">
+                        <MyButton>Git</MyButton>
+                    </Link>
+                    :
+                    <MyButton disabled>
+                        ...
+                    </MyButton>}
+
             </CardFooter>
         </Card>
     )

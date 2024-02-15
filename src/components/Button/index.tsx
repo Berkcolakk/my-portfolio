@@ -1,15 +1,11 @@
 import { Button } from "@nextui-org/button";
 import React from "react";
-import { forwardRef } from "react";
+import { ButtonProps } from "@nextui-org/react";
 
-interface IProps {
-    text: string;
-    className?: string;
-}
-const MyButton: React.FC<IProps> = ({ text, className }) => {
+const MyButton: React.FC<ButtonProps> = ({ ...props }) => {
     return (
-        <Button className={`dark:bg-darkThird bg-lightThird text-black dark:text-black  ${className}`} color="default" size="md" radius="full" variant="flat">
-            {text}
+        <Button {...props} className={`dark:bg-darkThird bg-lightThird text-black dark:text-black  ${props.className}`} color="default" size="md" radius="full" variant="flat">
+            {props.children}
         </Button>
     )
 }

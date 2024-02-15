@@ -4,37 +4,55 @@
       "name": "Digital Twin - Smart City",
       "role": "Frontend Developer",
       "viaCompany": "Kafein Technology Solutions",
-      "imagePath": "DigitalTwin.jpg"
+      "company": "Intranet Yazılım AŞ",
+      "imageName": "DigitalTwin.jpg",
+      "address": null,
+      "clickedIcon": "Programmer.svg"
     },
     {
       "name": "Muud",
       "role": "Frontend Developer",
       "viaCompany": "Kafein Technology Solutions",
-      "imagePath": "Muud.jpg"
+      "company": "Intranet Yazılım AŞ",
+      "imageName": "Muud.jpg",
+      "address": "https://www.muud.com.tr",
+      "clickedIcon": "Programmer.svg"
     },
     {
       "name": "Yaay",
       "role": "Full Stack Developer",
       "viaCompany": "Kafein Technology Solutions",
-      "imagePath": "Yaay.svg"
+      "company": "Intranet Yazılım AŞ",
+      "imageName": "Yaay.svg",
+      "address": "https://yaay.com.tr",
+      "clickedIcon": "Programmer.svg"
     },
     {
       "name": "Intraprise",
       "role": "Full Stack Developer",
       "viaCompany": null,
-      "imagePath": "Intraprise.png"
+      "company": "Intranet Yazılım AŞ",
+      "imageName": "Intraprise.png",
+      "address": "https://p1.hseplus.com.tr",
+      "clickedIcon": "Programmer.svg"
     },
     {
       "name": "HR Metrik - 360 Degree Evaluation",
       "role": "Full Stack Developer",
       "viaCompany": null,
-      "imagePath": "360DegreeEvaluation.jpg"
+      "company": "Wiody Creative",
+      "imageName": "360DegreeEvaluation.jpg",
+      "address": null,
+      "clickedIcon": "Junior.png"
     },
     {
       "name": "Call Center App",
       "role": "Full Stack Developer",
       "viaCompany": null,
-      "imagePath": "CallCenter.png"
+      "company": "Wiody Creative",
+      "imageName": "CallCenter.png",
+      "address": null,
+      "clickedIcon": "Junior.png"
     }
   ]
 }
